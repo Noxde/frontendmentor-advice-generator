@@ -76,3 +76,17 @@ button {
   width: 65px;
   height: 65px;
 }
+
+@media (min-width: 520px) {
+  .spacer-mobile {
+    display: none;
+  }
+
+  .advice {
+    font-size: 2rem;
+  }
+
+  .spacer-desktop {
+    display: block;
+  }
+}
